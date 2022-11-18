@@ -1,0 +1,38 @@
+POST /api/coupons/coupon/apply HTTP/1.1
+Host: sms.ali.asianetindia.com
+Cookie: csrftoken=jzQ49DFEWik5aUugiLHfhVhCIv1xhEThcS4ROhAlFdK4506iZnPvVoPxO7H6QyD4; sessionid=3mw4ztp2o78ockmddrtiwjav5hxxeocy
+Content-Length: 481
+Sec-Ch-Ua: "Chromium";v="103", ".Not/A)Brand";v="99"
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Unknownghost401@wearehackerone.com
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary6wZdOVN13BvGhBiB
+Accept: */*
+X-Requested-With: XMLHttpRequest
+X-Csrftoken: jzQ49DFEWik5aUugiLHfhVhCIv1xhEThcS4ROhAlFdK4506iZnPvVoPxO7H6QyD4
+Sec-Ch-Ua-Platform: "Linux"
+Origin: https://sms.ali.asianetindia.com
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://sms.ali.asianetindia.com/subscriber/recharge/
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Connection: close
+
+------WebKitFormBoundary6wZdOVN13BvGhBiB
+Content-Disposition: form-data; name="code"
+
+FUZZ
+------WebKitFormBoundary6wZdOVN13BvGhBiB
+Content-Disposition: form-data; name="transaction_type"
+
+SUBSCRIBERADVANCERECHARGE
+------WebKitFormBoundary6wZdOVN13BvGhBiB
+Content-Disposition: form-data; name="gross_amount"
+
+1017.00
+------WebKitFormBoundary6wZdOVN13BvGhBiB
+Content-Disposition: form-data; name="couponhistory_ids"
+
+[]
+------WebKitFormBoundary6wZdOVN13BvGhBiB--
